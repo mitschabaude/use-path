@@ -1,8 +1,8 @@
 {
-  "name": "npm-ts-template",
+  "name": "use-path",
   "description": "No description yet",
-  "version": "0.1.0",
-  "repository": "git@github.com:mitschabaude/npm-ts-template.git",
+  "version": "1.0.0",
+  "repository": "https://github.com/mitschabaude/use-path",
   "author": "Gregor <gregor.mitscha-baude@gmx.at>",
   "license": "MIT",
   "main": "dist/index.js",
