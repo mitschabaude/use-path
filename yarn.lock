@@ -2,12 +2,42 @@
 # yarn lockfile v1
 
 
+"@types/prop-types@*":
+  version "15.7.3"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
+  integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+
+"@types/react@^17.0.2":
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.2.tgz#3de24c4efef902dd9795a49c75f760cbe4f7a5a8"
+  integrity sha512-Xt40xQsrkdvjn1EyWe1Bc0dJLcil/9x2vAuW7ya+PuQip4UYUaXyhzWmAbwRsdMgwOFHpfp7/FFZebDU6Y8VHA==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^3.0.2"
+
+csstype@^3.0.2:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.7.tgz#2a5fb75e1015e84dd15692f71e89a1450290950b"
+  integrity sha512-KxnUB0ZMlnUWCsx2Z8MUsr6qV6ja1w9ArPErJaJaF8a5SOWoHLIszeCTKGRGRgtLgYrs1E8CHkNSP1VZTTPc9g==
+
 esbuild@>=0.8.50:
   version "0.8.54"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.54.tgz#2f32ff80e95c69a0f25b799d76a27c05e2857cdf"
   integrity sha512-DJH38OiTgXJxFb/EhHrCrY8eGmtdkTtWymHpN9IYN9AF+4jykT0dQArr7wzFejpVbaB0TMIq2+vfNRWr3LXpvw==
 
+minimal-state@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/minimal-state/-/minimal-state-5.0.0.tgz#a8e4cc81169b1ddccb31cc0465d84727b3eafa29"
+  integrity sha512-qldoMItGYgCMhI3r/JvnSEZ3yYRk2QWEXlx1cmzeAhU7+HPW0F904fV13SXVYf0phLOVbkU0P0VIVJmVE7CKPQ==
+
 typescript@>=4.0.0:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.2.tgz#1450f020618f872db0ea17317d16d8da8ddb8c4c"
   integrity sha512-tbb+NVrLfnsJy3M59lsDgrzWIflR4d4TIUjz+heUnHZwdF7YsrMTKoRERiIvI2lvBG95dfpLxB21WZhys1bgaQ==
+
+use-minimal-state@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/use-minimal-state/-/use-minimal-state-3.0.2.tgz#243e28a931fc5bb04ba184795ff6fce8148769e6"
+  integrity sha512-KcGnrhR3xl3rCiGjAXVyxbusyN+GKehvh6KpLpBPnykEiYx0y9AkFH/EZg/a+utcClbp2OjQkyn9iI2aop/L2w==
+  dependencies:
+    minimal-state "^5.0.0"
